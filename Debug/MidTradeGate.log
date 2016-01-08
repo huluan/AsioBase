@@ -1,0 +1,7 @@
+﻿  main.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+CL : warning : Boost.Signals is no longer being maintained and is now deprecated. Please switch to Boost.Signals2. To disable this warning message, define BOOST_SIGNALS_NO_DEPRECATION_WARNING.
+  MidTradeGate.vcxproj -> C:\Users\Silent.Silent-PC\Documents\Visual Studio 2015\Projects\NewMidTradeGate\Debug\MidTradeGate.exe

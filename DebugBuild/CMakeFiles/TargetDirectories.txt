@@ -1,0 +1,1 @@
+/mnt/hgfs/NewMidTradeGate/DebugBuild/CMakeFiles/server1.dir
