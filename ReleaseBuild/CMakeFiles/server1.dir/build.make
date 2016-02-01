@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/CoroutineGoGoGO
+CMAKE_SOURCE_DIR = /home/silent/Documents/MyProject/MidTradeGate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild
+CMAKE_BINARY_DIR = /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild
 
 # Include any dependencies generated for this target.
 include CMakeFiles/server1.dir/depend.make
@@ -52,65 +52,19 @@ include CMakeFiles/server1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/server1.dir/flags.make
 
-CMakeFiles/server1.dir/ConnManager.cpp.o: CMakeFiles/server1.dir/flags.make
-CMakeFiles/server1.dir/ConnManager.cpp.o: ../ConnManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/server1.dir/ConnManager.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/server1.dir/ConnManager.cpp.o -c /mnt/hgfs/CoroutineGoGoGO/ConnManager.cpp
-
-CMakeFiles/server1.dir/ConnManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server1.dir/ConnManager.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /mnt/hgfs/CoroutineGoGoGO/ConnManager.cpp > CMakeFiles/server1.dir/ConnManager.cpp.i
-
-CMakeFiles/server1.dir/ConnManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server1.dir/ConnManager.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /mnt/hgfs/CoroutineGoGoGO/ConnManager.cpp -o CMakeFiles/server1.dir/ConnManager.cpp.s
-
-CMakeFiles/server1.dir/ConnManager.cpp.o.requires:
-.PHONY : CMakeFiles/server1.dir/ConnManager.cpp.o.requires
-
-CMakeFiles/server1.dir/ConnManager.cpp.o.provides: CMakeFiles/server1.dir/ConnManager.cpp.o.requires
-	$(MAKE) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/ConnManager.cpp.o.provides.build
-.PHONY : CMakeFiles/server1.dir/ConnManager.cpp.o.provides
-
-CMakeFiles/server1.dir/ConnManager.cpp.o.provides.build: CMakeFiles/server1.dir/ConnManager.cpp.o
-
-CMakeFiles/server1.dir/IoServicePool.cpp.o: CMakeFiles/server1.dir/flags.make
-CMakeFiles/server1.dir/IoServicePool.cpp.o: ../IoServicePool.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/server1.dir/IoServicePool.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/server1.dir/IoServicePool.cpp.o -c /mnt/hgfs/CoroutineGoGoGO/IoServicePool.cpp
-
-CMakeFiles/server1.dir/IoServicePool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server1.dir/IoServicePool.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /mnt/hgfs/CoroutineGoGoGO/IoServicePool.cpp > CMakeFiles/server1.dir/IoServicePool.cpp.i
-
-CMakeFiles/server1.dir/IoServicePool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server1.dir/IoServicePool.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /mnt/hgfs/CoroutineGoGoGO/IoServicePool.cpp -o CMakeFiles/server1.dir/IoServicePool.cpp.s
-
-CMakeFiles/server1.dir/IoServicePool.cpp.o.requires:
-.PHONY : CMakeFiles/server1.dir/IoServicePool.cpp.o.requires
-
-CMakeFiles/server1.dir/IoServicePool.cpp.o.provides: CMakeFiles/server1.dir/IoServicePool.cpp.o.requires
-	$(MAKE) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/IoServicePool.cpp.o.provides.build
-.PHONY : CMakeFiles/server1.dir/IoServicePool.cpp.o.provides
-
-CMakeFiles/server1.dir/IoServicePool.cpp.o.provides.build: CMakeFiles/server1.dir/IoServicePool.cpp.o
-
 CMakeFiles/server1.dir/main.cpp.o: CMakeFiles/server1.dir/flags.make
 CMakeFiles/server1.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/server1.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/server1.dir/main.cpp.o -c /mnt/hgfs/CoroutineGoGoGO/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/server1.dir/main.cpp.o -c /home/silent/Documents/MyProject/MidTradeGate/main.cpp
 
 CMakeFiles/server1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server1.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /mnt/hgfs/CoroutineGoGoGO/main.cpp > CMakeFiles/server1.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/silent/Documents/MyProject/MidTradeGate/main.cpp > CMakeFiles/server1.dir/main.cpp.i
 
 CMakeFiles/server1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server1.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /mnt/hgfs/CoroutineGoGoGO/main.cpp -o CMakeFiles/server1.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/silent/Documents/MyProject/MidTradeGate/main.cpp -o CMakeFiles/server1.dir/main.cpp.s
 
 CMakeFiles/server1.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/server1.dir/main.cpp.o.requires
@@ -121,19 +75,65 @@ CMakeFiles/server1.dir/main.cpp.o.provides: CMakeFiles/server1.dir/main.cpp.o.re
 
 CMakeFiles/server1.dir/main.cpp.o.provides.build: CMakeFiles/server1.dir/main.cpp.o
 
+CMakeFiles/server1.dir/IoServicePool.cpp.o: CMakeFiles/server1.dir/flags.make
+CMakeFiles/server1.dir/IoServicePool.cpp.o: ../IoServicePool.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/server1.dir/IoServicePool.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/server1.dir/IoServicePool.cpp.o -c /home/silent/Documents/MyProject/MidTradeGate/IoServicePool.cpp
+
+CMakeFiles/server1.dir/IoServicePool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server1.dir/IoServicePool.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/silent/Documents/MyProject/MidTradeGate/IoServicePool.cpp > CMakeFiles/server1.dir/IoServicePool.cpp.i
+
+CMakeFiles/server1.dir/IoServicePool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server1.dir/IoServicePool.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/silent/Documents/MyProject/MidTradeGate/IoServicePool.cpp -o CMakeFiles/server1.dir/IoServicePool.cpp.s
+
+CMakeFiles/server1.dir/IoServicePool.cpp.o.requires:
+.PHONY : CMakeFiles/server1.dir/IoServicePool.cpp.o.requires
+
+CMakeFiles/server1.dir/IoServicePool.cpp.o.provides: CMakeFiles/server1.dir/IoServicePool.cpp.o.requires
+	$(MAKE) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/IoServicePool.cpp.o.provides.build
+.PHONY : CMakeFiles/server1.dir/IoServicePool.cpp.o.provides
+
+CMakeFiles/server1.dir/IoServicePool.cpp.o.provides.build: CMakeFiles/server1.dir/IoServicePool.cpp.o
+
+CMakeFiles/server1.dir/ConnManager.cpp.o: CMakeFiles/server1.dir/flags.make
+CMakeFiles/server1.dir/ConnManager.cpp.o: ../ConnManager.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/server1.dir/ConnManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/server1.dir/ConnManager.cpp.o -c /home/silent/Documents/MyProject/MidTradeGate/ConnManager.cpp
+
+CMakeFiles/server1.dir/ConnManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server1.dir/ConnManager.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/silent/Documents/MyProject/MidTradeGate/ConnManager.cpp > CMakeFiles/server1.dir/ConnManager.cpp.i
+
+CMakeFiles/server1.dir/ConnManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server1.dir/ConnManager.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/silent/Documents/MyProject/MidTradeGate/ConnManager.cpp -o CMakeFiles/server1.dir/ConnManager.cpp.s
+
+CMakeFiles/server1.dir/ConnManager.cpp.o.requires:
+.PHONY : CMakeFiles/server1.dir/ConnManager.cpp.o.requires
+
+CMakeFiles/server1.dir/ConnManager.cpp.o.provides: CMakeFiles/server1.dir/ConnManager.cpp.o.requires
+	$(MAKE) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/ConnManager.cpp.o.provides.build
+.PHONY : CMakeFiles/server1.dir/ConnManager.cpp.o.provides
+
+CMakeFiles/server1.dir/ConnManager.cpp.o.provides.build: CMakeFiles/server1.dir/ConnManager.cpp.o
+
 CMakeFiles/server1.dir/TcpConnectBase.cpp.o: CMakeFiles/server1.dir/flags.make
 CMakeFiles/server1.dir/TcpConnectBase.cpp.o: ../TcpConnectBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/server1.dir/TcpConnectBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/server1.dir/TcpConnectBase.cpp.o -c /mnt/hgfs/CoroutineGoGoGO/TcpConnectBase.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/server1.dir/TcpConnectBase.cpp.o -c /home/silent/Documents/MyProject/MidTradeGate/TcpConnectBase.cpp
 
 CMakeFiles/server1.dir/TcpConnectBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server1.dir/TcpConnectBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /mnt/hgfs/CoroutineGoGoGO/TcpConnectBase.cpp > CMakeFiles/server1.dir/TcpConnectBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/silent/Documents/MyProject/MidTradeGate/TcpConnectBase.cpp > CMakeFiles/server1.dir/TcpConnectBase.cpp.i
 
 CMakeFiles/server1.dir/TcpConnectBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server1.dir/TcpConnectBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /mnt/hgfs/CoroutineGoGoGO/TcpConnectBase.cpp -o CMakeFiles/server1.dir/TcpConnectBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/silent/Documents/MyProject/MidTradeGate/TcpConnectBase.cpp -o CMakeFiles/server1.dir/TcpConnectBase.cpp.s
 
 CMakeFiles/server1.dir/TcpConnectBase.cpp.o.requires:
 .PHONY : CMakeFiles/server1.dir/TcpConnectBase.cpp.o.requires
@@ -146,17 +146,17 @@ CMakeFiles/server1.dir/TcpConnectBase.cpp.o.provides.build: CMakeFiles/server1.d
 
 # Object files for target server1
 server1_OBJECTS = \
-"CMakeFiles/server1.dir/ConnManager.cpp.o" \
-"CMakeFiles/server1.dir/IoServicePool.cpp.o" \
 "CMakeFiles/server1.dir/main.cpp.o" \
+"CMakeFiles/server1.dir/IoServicePool.cpp.o" \
+"CMakeFiles/server1.dir/ConnManager.cpp.o" \
 "CMakeFiles/server1.dir/TcpConnectBase.cpp.o"
 
 # External object files for target server1
 server1_EXTERNAL_OBJECTS =
 
-server1: CMakeFiles/server1.dir/ConnManager.cpp.o
-server1: CMakeFiles/server1.dir/IoServicePool.cpp.o
 server1: CMakeFiles/server1.dir/main.cpp.o
+server1: CMakeFiles/server1.dir/IoServicePool.cpp.o
+server1: CMakeFiles/server1.dir/ConnManager.cpp.o
 server1: CMakeFiles/server1.dir/TcpConnectBase.cpp.o
 server1: CMakeFiles/server1.dir/build.make
 server1: CMakeFiles/server1.dir/link.txt
@@ -167,9 +167,9 @@ server1: CMakeFiles/server1.dir/link.txt
 CMakeFiles/server1.dir/build: server1
 .PHONY : CMakeFiles/server1.dir/build
 
-CMakeFiles/server1.dir/requires: CMakeFiles/server1.dir/ConnManager.cpp.o.requires
-CMakeFiles/server1.dir/requires: CMakeFiles/server1.dir/IoServicePool.cpp.o.requires
 CMakeFiles/server1.dir/requires: CMakeFiles/server1.dir/main.cpp.o.requires
+CMakeFiles/server1.dir/requires: CMakeFiles/server1.dir/IoServicePool.cpp.o.requires
+CMakeFiles/server1.dir/requires: CMakeFiles/server1.dir/ConnManager.cpp.o.requires
 CMakeFiles/server1.dir/requires: CMakeFiles/server1.dir/TcpConnectBase.cpp.o.requires
 .PHONY : CMakeFiles/server1.dir/requires
 
@@ -178,6 +178,6 @@ CMakeFiles/server1.dir/clean:
 .PHONY : CMakeFiles/server1.dir/clean
 
 CMakeFiles/server1.dir/depend:
-	cd /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/CoroutineGoGoGO /mnt/hgfs/CoroutineGoGoGO /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles/server1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/silent/Documents/MyProject/MidTradeGate /home/silent/Documents/MyProject/MidTradeGate /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles/server1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/server1.dir/depend
 

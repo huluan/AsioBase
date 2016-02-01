@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ConnManager.cpp">
+      <Filter>BaseNetIO</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpConnectBase.cpp">
+      <Filter>BaseNetIO</Filter>
+    </ClCompile>
+    <ClCompile Include="IoServicePool.cpp">
+      <Filter>BaseNetIO</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConnManager.h">
+      <Filter>BaseNetIO</Filter>
+    </ClInclude>
+    <ClInclude Include="IoServicePool.h">
+      <Filter>BaseNetIO</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpConnectBase.h">
+      <Filter>BaseNetIO</Filter>
+    </ClInclude>
+    <ClInclude Include="MidTradeServer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{80a17bd6-98b0-4280-8ecf-bebf7bdd821f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseNetIO">
+      <UniqueIdentifier>{e0beffb3-9a2b-42d2-bda7-77f131f4baee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{e5354fc1-98d5-4197-b848-e4cd57c2a7a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

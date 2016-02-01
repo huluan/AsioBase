@@ -1,0 +1,164 @@
+The system is: Linux - 2.6.32-431.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/hgfs/NewMidTradeGate/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/hgfs/NewMidTradeGate/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2199345554/fast"
+gmake: Warning: File `Makefile' has modification time 0.58 s in the future
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2199345554.dir/build.make CMakeFiles/cmTryCompileExec2199345554.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File `CMakeFiles/cmTryCompileExec2199345554.dir/flags.make' has modification time 0.58 s in the future
+/usr/bin/cmake -E cmake_progress_report /mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2199345554.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2199345554.dir/testCCompiler.c.o   -c /mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2199345554
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2199345554.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2199345554.dir/testCCompiler.c.o  -o cmTryCompileExec2199345554 -rdynamic 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory `/mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2332660048/fast"
+gmake: Warning: File `Makefile' has modification time 0.59 s in the future
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2332660048.dir/build.make CMakeFiles/cmTryCompileExec2332660048.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File `CMakeFiles/cmTryCompileExec2332660048.dir/flags.make' has modification time 0.58 s in the future
+/usr/bin/cmake -E cmake_progress_report /mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2332660048.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2332660048.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2332660048
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2332660048.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2332660048.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2332660048 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/usr --enable-languages=c,c++ --disable-multilib
+Thread model: posix
+gcc version 5.2.0 (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2332660048' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2332660048 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../.. CMakeFiles/cmTryCompileExec2332660048.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/crtn.o
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory `/mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2332660048/fast"]
+  ignore line: [gmake: Warning: File `Makefile' has modification time 0.59 s in the future]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2332660048.dir/build.make CMakeFiles/cmTryCompileExec2332660048.dir/build]
+  ignore line: [gmake[1]: Entering directory `/mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp']
+  ignore line: [gmake[1]: Warning: File `CMakeFiles/cmTryCompileExec2332660048.dir/flags.make' has modification time 0.58 s in the future]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2332660048.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2332660048.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2332660048]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2332660048.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2332660048.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2332660048 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/usr --enable-languages=c,c++ --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/usr/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2332660048' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2332660048 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../.. CMakeFiles/cmTryCompileExec2332660048.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2332660048] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0]
+    arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..]
+    arg [CMakeFiles/cmTryCompileExec2332660048.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0] ==> [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0]
+  collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.2.0;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1056668532/fast"
+gmake: Warning: File `Makefile' has modification time 0.58 s in the future
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1056668532.dir/build.make CMakeFiles/cmTryCompileExec1056668532.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File `CMakeFiles/cmTryCompileExec1056668532.dir/flags.make' has modification time 0.57 s in the future
+/usr/bin/cmake -E cmake_progress_report /mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1056668532.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1056668532.dir/testCXXCompiler.cxx.o -c /mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1056668532
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1056668532.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1056668532.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1056668532 -rdynamic 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory `/mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+

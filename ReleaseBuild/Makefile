@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/CoroutineGoGoGO
+CMAKE_SOURCE_DIR = /home/silent/Documents/MyProject/MidTradeGate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild
+CMAKE_BINARY_DIR = /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,0 +1,1 @@
+/mnt/hgfs/NewMidTradeGate/CMakeFiles/CMakeTmp/CMakeFiles/cmTryCompileExec2987445524.dir

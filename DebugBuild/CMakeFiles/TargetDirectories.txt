@@ -1,1 +1,1 @@
-/mnt/hgfs/NewMidTradeGate/DebugBuild/CMakeFiles/server1.dir
+/home/silent/Documents/MyProject/MidTradeGate/DebugBuild/CMakeFiles/server1.dir

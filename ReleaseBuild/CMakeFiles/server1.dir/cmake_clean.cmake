@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/server1.dir/ConnManager.cpp.o"
-  "CMakeFiles/server1.dir/IoServicePool.cpp.o"
   "CMakeFiles/server1.dir/main.cpp.o"
+  "CMakeFiles/server1.dir/IoServicePool.cpp.o"
+  "CMakeFiles/server1.dir/ConnManager.cpp.o"
   "CMakeFiles/server1.dir/TcpConnectBase.cpp.o"
   "server1.pdb"
   "server1"

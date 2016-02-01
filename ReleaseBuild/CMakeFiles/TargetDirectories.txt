@@ -1,1 +1,1 @@
-/mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles/server1.dir
+/home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles/server1.dir

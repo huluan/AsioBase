@@ -1,1 +1,1 @@
-/usr/bin/c++   -O3 -DNDEBUG -O2 -Wall    CMakeFiles/server1.dir/ConnManager.cpp.o CMakeFiles/server1.dir/IoServicePool.cpp.o CMakeFiles/server1.dir/main.cpp.o CMakeFiles/server1.dir/TcpConnectBase.cpp.o  -o server1 -rdynamic -lboost_system -lboost_thread 
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/server1.dir/main.cpp.o CMakeFiles/server1.dir/IoServicePool.cpp.o CMakeFiles/server1.dir/ConnManager.cpp.o CMakeFiles/server1.dir/TcpConnectBase.cpp.o  -o server1 -rdynamic -lboost_system -lboost_thread -Wl,-rpath,"\$ORIGIN" 

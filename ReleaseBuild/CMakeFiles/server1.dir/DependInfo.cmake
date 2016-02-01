@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/hgfs/CoroutineGoGoGO/ConnManager.cpp" "/mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles/server1.dir/ConnManager.cpp.o"
-  "/mnt/hgfs/CoroutineGoGoGO/IoServicePool.cpp" "/mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles/server1.dir/IoServicePool.cpp.o"
-  "/mnt/hgfs/CoroutineGoGoGO/TcpConnectBase.cpp" "/mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles/server1.dir/TcpConnectBase.cpp.o"
-  "/mnt/hgfs/CoroutineGoGoGO/main.cpp" "/mnt/hgfs/CoroutineGoGoGO/ReleaseBuild/CMakeFiles/server1.dir/main.cpp.o"
+  "/home/silent/Documents/MyProject/MidTradeGate/ConnManager.cpp" "/home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles/server1.dir/ConnManager.cpp.o"
+  "/home/silent/Documents/MyProject/MidTradeGate/IoServicePool.cpp" "/home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles/server1.dir/IoServicePool.cpp.o"
+  "/home/silent/Documents/MyProject/MidTradeGate/TcpConnectBase.cpp" "/home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles/server1.dir/TcpConnectBase.cpp.o"
+  "/home/silent/Documents/MyProject/MidTradeGate/main.cpp" "/home/silent/Documents/MyProject/MidTradeGate/ReleaseBuild/CMakeFiles/server1.dir/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
